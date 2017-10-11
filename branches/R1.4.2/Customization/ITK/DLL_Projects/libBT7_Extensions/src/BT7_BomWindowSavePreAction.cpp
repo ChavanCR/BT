@@ -19,6 +19,8 @@ extern USER_EXT_DLL_API int BT7_BomWindowSavePreAction(METHOD_message_t* msg, va
     tag_t					tBomWindow	= va_arg(args, tag_t);
 	tag_t					tTopBomLine = NULLTAG;
 	logical bEnableExtension = false;
+	
+	printf("Remove changes");
 
 	if(DEBUG == 1) printf("################################################################ \n");
 	if(DEBUG == 1) printf("#######Entering method BT7_BomWindowSavePreAction \n");
