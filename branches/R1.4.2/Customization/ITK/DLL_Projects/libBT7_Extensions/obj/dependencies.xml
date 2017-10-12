@@ -86,13 +86,13 @@
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\fclasses\libfclasses_exports.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\fclasses\libfclasses_undef.h"/>
       </source>
-      <source file="..\src\BT7_ProductSavePreCondition.cpp" lastModified="15f0ae1f199">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cstdlib" lastModified="136dc278030">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\yvals.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h"/>
+      </source>
+      <source file="..\src\BT7_ProductSavePreCondition.cpp" lastModified="15f0ae1f199">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xrefwrap" lastModified="136181735a0">
       </source>
@@ -208,9 +208,6 @@
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\streambuf" lastModified="136181735a0">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xiosbase"/>
       </source>
-      <source file="..\src\BT7_CMHasSolutionItemPreCondition.cpp" lastModified="15f0ae1f17a">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\ss\ss_types.h" lastModified="15a977d2ad8">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\unidefs.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\ss\ss_const.h"/>
@@ -218,6 +215,9 @@
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\ss\libss_exports.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\ss\libss_undef.h"/>
          <sysinclude file="C:\Program Files (x86)\Windows Kits\8.0\Include\um\Windows.h"/>
+      </source>
+      <source file="..\src\BT7_CMHasSolutionItemPreCondition.cpp" lastModified="15f0ae1f17a">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\system_error" lastModified="137beb40590">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cerrno"/>
@@ -235,14 +235,14 @@
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\fclasses\tc_stdlib.h" lastModified="14ec15b8f40">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h"/>
       </source>
+      <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h" lastModified="134327ba860">
+         <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h"/>
+      </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\fclasses\tc_string.h" lastModified="15a977d2ec0">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\unidefs.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\fclasses\libfclasses_exports.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\fclasses\libfclasses_undef.h"/>
-      </source>
-      <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h" lastModified="134327ba860">
-         <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h"/>
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\bom\bomove_errors.h" lastModified="15a977cf040">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\emh_const.h"/>
@@ -496,9 +496,6 @@
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\tc\tc_arguments.h" lastModified="14ec15b8f40">
       </source>
-      <source file="..\src\BT7_CommonComponentRequestsSavePostAction.cpp" lastModified="15f0ae1f17f">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale" lastModified="137fc5d8380">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\climits"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cstring"/>
@@ -510,6 +507,9 @@
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\ps\libps_undef.h" lastModified="14ec15b77d0">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\src\BT7_CommonComponentRequestsSavePostAction.cpp" lastModified="15f0ae1f17f">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\sub_mgr\libsub_mgr_exports.h" lastModified="14ec15b7bb8">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
@@ -752,14 +752,14 @@
       </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ammintrin.h" lastModified="134327ba860">
       </source>
-      <source file="..\src\BT7_ItemRevisionDeepCopyPostAction.cpp" lastModified="15f0ae1f18b">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\sa\role.h" lastModified="15a977d2308">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\sa\sa.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\sa\libsa_exports.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\unidefs.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\sa\libsa_undef.h"/>
+      </source>
+      <source file="..\src\BT7_ItemRevisionDeepCopyPostAction.cpp" lastModified="15f0ae1f18b">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\nmmintrin.h" lastModified="134327ba860">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\smmintrin.h"/>
@@ -782,14 +782,14 @@
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\sub_mgr\tcactionhandler_errors.h" lastModified="15a977d2ec0">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\emh_const.h"/>
       </source>
-      <source file="..\src\BT7_RelSpecifiedCreatePostAction.cpp" lastModified="15f0ae1f1ab">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\yvals.h" lastModified="136dc278030">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xkeycheck.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\use_ansi.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtwrn.h"/>
+      </source>
+      <source file="..\src\BT7_RelSpecifiedCreatePostAction.cpp" lastModified="15f0ae1f1ab">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\bom\bom_tokens.h" lastModified="15a977cf040">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\unidefs.h"/>
@@ -836,12 +836,6 @@
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\rdv\librdv_undef.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\rdv\iman_rdv.h"/>
       </source>
-      <source file="..\src\BT7_BomWindowSavePreAction.cpp" lastModified="15f0ae1f15e">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
-      <source file="..\src\ReviseDocument.cpp" lastModified="15f0ae1f1cb">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xmemory0" lastModified="137beb40590">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cstdlib"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\limits"/>
@@ -850,6 +844,9 @@
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xatomic0.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\intrin.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xatomic.h"/>
+      </source>
+      <source file="..\src\ReviseDocument.cpp" lastModified="15f0ae1f1cb">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdexcept" lastModified="136181735a0">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\exception"/>
@@ -936,9 +933,6 @@
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\iostream" lastModified="136181735a0">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream"/>
       </source>
-      <source file="..\src\BT7_CMHasImpactedItemPreCondition.cpp" lastModified="15f0ae1f167">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\locale.h" lastModified="136dc278030">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h"/>
       </source>
@@ -946,6 +940,9 @@
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\system_error"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\share.h"/>
+      </source>
+      <source file="..\src\BT7_CMHasImpactedItemPreCondition.cpp" lastModified="15f0ae1f167">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\pmmintrin.h" lastModified="134327ba860">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\emmintrin.h"/>
@@ -986,9 +983,6 @@
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ctype.h" lastModified="136dc278030">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h"/>
       </source>
-      <source file="..\src\BT7_ItemCreateFromRevPreCondition.cpp" lastModified="15f0ae1f183">
-         <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cmath" lastModified="136dc278030">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\yvals.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h"/>
@@ -999,6 +993,9 @@
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h" lastModified="136dc278030">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\swprintf.inl"/>
+      </source>
+      <source file="..\src\BT7_ItemCreateFromRevPreCondition.cpp" lastModified="15f0ae1f183">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\fclasses\iman_basic.h" lastModified="15a977cffe0">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\tc\iman_portable_types.h"/>
@@ -1031,21 +1028,21 @@
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\yvals.h"/>
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\limits.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\..\..\..\11\include\epm\libepm_exports.h" lastModified="14ec15b73e8">
-         <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
-      </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\vm\libvm_exports.h" lastModified="14ec15b7fa0">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
       </source>
-      <source file="..\src\CommonFunctions.cpp" lastModified="15f0ae1f1c6">
-         <include file="..\src\BT7_ServerExtensions.h"/>
+      <source file="..\..\..\..\..\..\..\..\..\..\11\include\epm\libepm_exports.h" lastModified="14ec15b73e8">
+         <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\..\..\..\11\include\configurator\cfg_tokens.h" lastModified="15a977cf428">
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\tc\preferences.h" lastModified="15a977d1f20">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\unidefs.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\tc\libtc_exports.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\tc\libtc_undef.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\..\..\..\11\include\configurator\cfg_tokens.h" lastModified="15a977cf428">
+      <source file="..\src\CommonFunctions.cpp" lastModified="15f0ae1f1c6">
+         <include file="..\src\BT7_ServerExtensions.h"/>
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\ps\libps_exports.h" lastModified="14ec15b77d0">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
@@ -1087,10 +1084,10 @@
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\sa\libsa_exports.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\sa\libsa_undef.h"/>
       </source>
+      <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wtime.inl" lastModified="134327bb030">
+      </source>
       <source file="..\src\BT7_RelConcernedDeletePreCondition.cpp" lastModified="15f0ae1f1a7">
          <include file="..\src\BT7_ServerExtensions.h"/>
-      </source>
-      <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\wtime.inl" lastModified="134327bb030">
       </source>
       <source file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\limits" lastModified="136181735a0">
          <include file="C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ymath.h"/>
@@ -1712,18 +1709,18 @@
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\tc\libiman_undef.h"/>
       </source>
+      <source file="..\..\..\..\..\..\..\..\..\..\11\include\vm\libvm_exports.h" lastModified="14ec15b7fa0">
+         <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
+      </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\epm\libepm_exports.h" lastModified="14ec15b73e8">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
       </source>
-      <source file="..\..\..\..\..\..\..\..\..\..\11\include\vm\libvm_exports.h" lastModified="14ec15b7fa0">
-         <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
+      <source file="..\..\..\..\..\..\..\..\..\..\11\include\configurator\cfg_tokens.h" lastModified="15a977cf428">
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\tc\preferences.h" lastModified="15a977d1f20">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\unidefs.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\tc\libtc_exports.h"/>
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\tc\libtc_undef.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\..\..\..\..\11\include\configurator\cfg_tokens.h" lastModified="15a977cf428">
       </source>
       <source file="..\..\..\..\..\..\..\..\..\..\11\include\ps\libps_exports.h" lastModified="14ec15b77d0">
          <include file="..\..\..\..\..\..\..\..\..\..\11\include\common\library_indicators.h"/>
